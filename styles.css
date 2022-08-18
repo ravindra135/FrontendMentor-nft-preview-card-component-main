@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+/* For Text Responsive created Variables */
+:root {
+    --fs-200: 2rem;
+    --fs-150: 1.5rem;
+    --fs-100: 1rem;
+
+    --fs-sm: 16px;
+    --fs-lg: 21px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Attribution */
+.attribution {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline solid hsl(178, 100%, 50%);
+}
+/* End 0f Attribution */
+
+/* Main Content */
+.main-card {
+    width: auto;
+    height: auto;
+    max-width: 360px;
+    max-height: 720px;
+    padding: 23px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+}
+
+.img-container {
+    width: start;
+    height: 360px;
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* Ethereum Image */
+img#main-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+/* When Hovered on image container, added cyan bg color to the container */
+.img-container:hover {
+    background: hsl(178, 100%, 50%);
+}
+/* When Hovered on image container, Img opacity is modified */
+.img-container:hover img#main-img {
+    opacity: 0.5;
+}
+/* The Eye icon container */
+.main-eye-container {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    display: flex;
+}
+/* When Hovered on image container, eye-container is stacked up using z-index property */
+.img-container:hover .main-eye-container {
+    z-index: 1;
+}
+
+h2 {
+    font-size: var(--fs-150);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p#desc {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: var(--fs-lg);
+}
+
+/* Complete Text Block */
+.text-blocks {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+/* Individual Block = svg img + text */
+.txt-div {
+    display: flex;
+    gap: 8px;
+}
+
+p#eth-cyan {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: var(--fs-sm);
+}
+
+p#eth-time {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: var(--fs-sm);
+}
+
+/* HR tag is used for Line, customization the color of the border */
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img#avatar {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+p#txt-footer {
+    color: hsl(215, 51%, 70%);
+}
+
+span#name {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+span#name:hover {
+    color: hsl(178, 100%, 50%);
+}
