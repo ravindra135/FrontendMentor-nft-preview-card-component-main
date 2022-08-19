@@ -1,0 +1,51 @@
+@media screen and (max-width: 650px) {
+    
+    :root {
+        --fs-150: 1.3rem;
+        --fs-100: 1rem;
+    
+        --fs-sm: 14px;
+        --fs-lg: 21px;
+    }
+
+    body {
+        margin: 0 1rem;
+        min-height: fit-content;
+    }
+
+    .attribution {
+        bottom: .5rem;
+    }
+
+    .main-card {
+        gap: 18px;
+        margin-top: 1rem;
+    }
+
+    .img-container {
+        height: 255px;
+    }
+
+    h2 {
+        font-size: var(--fs-150);
+    }
+
+    p#desc {
+        font-size: var(--fs-100);
+    }
+
+    p#eth-cyan {
+        font-weight: 400;
+        font-size: var(--fs-sm);
+    }
+    
+    p#eth-time {
+        font-weight: 400;
+        font-size: var(--fs-sm);
+    }
+
+    span#name {
+        font-weight: 300;
+    }
+
+}
