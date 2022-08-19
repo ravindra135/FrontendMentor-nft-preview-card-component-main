@@ -34,6 +34,10 @@
         font-size: var(--fs-100);
     }
 
+    .txt-div {
+        gap: 4px;
+    }
+
     p#eth-cyan {
         font-weight: 400;
         font-size: var(--fs-sm);
@@ -48,4 +52,20 @@
         font-weight: 300;
     }
 
+}
+
+@media screen and (max-width: 1440px) {
+    .txt-div {
+        gap: 4px;
+    }
+
+    p#eth-cyan {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
+    p#eth-time {
+        font-weight: 400;
+        font-size: 13px;
+    }
 }
