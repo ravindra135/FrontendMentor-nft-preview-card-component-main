@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ravindra135/FrontendMentor-nft-preview-card-component-main)
-- Live Site URL: [Watch Live Now](https://your-live-site-url.com)
+- Live Site URL: [Watch Live Now](https://ravindra135.github.io/FrontendMentor-nft-preview-card-component-main/)
 
 ## My process
 
